@@ -1,5 +1,5 @@
 # edocs
-My bookmark
-Peter's personal tech notes and random stuff.
+
+Panda's personal tech notes and random stuff.
 
 Do not waste your time here.
