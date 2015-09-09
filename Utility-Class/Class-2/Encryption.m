@@ -1,7 +1,7 @@
 //
 //  Encryption.m
 //
-//  Created by wu.zhe on 14/11/17.
+//  Created by panda on 14/11/17.
 //  Copyright (c) 2014年  All rights reserved.
 //
 

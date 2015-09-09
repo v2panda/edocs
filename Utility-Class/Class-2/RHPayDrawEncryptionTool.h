@@ -2,7 +2,7 @@
 //  RHPayDrawEncryptionTool.h
 //  RHRedHorse
 //
-//  Created by 吴哲 on 15/1/20.
+//  Created by panda on 15/1/20.
 //  Copyright (c) 2015年 forex. All rights reserved.
 //  支付取现加密 专用
 

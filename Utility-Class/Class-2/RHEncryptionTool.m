@@ -2,7 +2,7 @@
 //  RHEncryptionTool.m
 //  RHRedHorse
 //
-//  Created by 吴哲 on 14/12/17.
+//  Created by panda on 14/12/17.
 //  Copyright (c) 2014年 forex. All rights reserved.
 //
 
