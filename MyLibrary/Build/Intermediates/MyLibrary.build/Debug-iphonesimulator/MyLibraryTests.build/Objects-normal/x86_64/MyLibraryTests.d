@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/xuzhen/Desktop/MyLibrary/MyLibraryTests/MyLibraryTests.m \
+  /Users/xuzhen/git/edocs/MyLibrary/MyLibraryTests/MyLibraryTests.m \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h \

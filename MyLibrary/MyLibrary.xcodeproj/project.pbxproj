@@ -14,6 +14,11 @@
 		2879933E1BB2863C00E45177 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2879933D1BB2863C00E45177 /* Images.xcassets */; };
 		287993411BB2863C00E45177 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2879933F1BB2863C00E45177 /* LaunchScreen.xib */; };
 		2879934D1BB2863C00E45177 /* MyLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2879934C1BB2863C00E45177 /* MyLibraryTests.m */; };
+		287993731BB292C600E45177 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 287993721BB292C600E45177 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		287993761BB2932400E45177 /* PDANetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 287993751BB2932400E45177 /* PDANetworkTool.m */; };
+		2879937E1BB297DD00E45177 /* PDALineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2879937D1BB297DD00E45177 /* PDALineView.m */; };
+		287993811BB297F400E45177 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 287993801BB297F400E45177 /* UIColor+Hex.m */; };
+		287993841BB29B7900E45177 /* PDATextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 287993831BB29B7900E45177 /* PDATextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,20 @@
 		2879934C1BB2863C00E45177 /* MyLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLibraryTests.m; sourceTree = "<group>"; };
 		287993691BB2898D00E45177 /* PDALog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDALog.h; sourceTree = "<group>"; };
 		2879936A1BB289E100E45177 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2879936C1BB28DEC00E45177 /* CommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		2879936D1BB28FDD00E45177 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		2879936E1BB2910700E45177 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		2879936F1BB2912E00E45177 /* IPAdress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAdress.h; sourceTree = "<group>"; };
+		287993711BB292C600E45177 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		287993721BB292C600E45177 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		287993741BB2932400E45177 /* PDANetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDANetworkTool.h; sourceTree = "<group>"; };
+		287993751BB2932400E45177 /* PDANetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDANetworkTool.m; sourceTree = "<group>"; };
+		2879937C1BB297DD00E45177 /* PDALineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDALineView.h; sourceTree = "<group>"; };
+		2879937D1BB297DD00E45177 /* PDALineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDALineView.m; sourceTree = "<group>"; };
+		2879937F1BB297F400E45177 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		287993801BB297F400E45177 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		287993821BB29B7900E45177 /* PDATextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDATextView.h; sourceTree = "<group>"; };
+		287993831BB29B7900E45177 /* PDATextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDATextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +105,8 @@
 				287993671BB288AE00E45177 /* AppDelegate */,
 				287993681BB288AE00E45177 /* Macro */,
 				287993661BB288A000E45177 /* Helpers */,
+				2879937A1BB2972A00E45177 /* Category */,
+				2879937B1BB297AE00E45177 /* Utils */,
 				287993371BB2863B00E45177 /* ViewController.h */,
 				287993381BB2863B00E45177 /* ViewController.m */,
 				287993301BB2863B00E45177 /* Supporting Files */,
@@ -126,6 +147,7 @@
 		287993661BB288A000E45177 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				287993701BB292BC00E45177 /* Reachability */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -143,8 +165,43 @@
 			isa = PBXGroup;
 			children = (
 				287993691BB2898D00E45177 /* PDALog.h */,
+				2879936C1BB28DEC00E45177 /* CommonDefine.h */,
+				2879936D1BB28FDD00E45177 /* Singleton.h */,
+				2879936E1BB2910700E45177 /* UtilsMacro.h */,
+				2879936F1BB2912E00E45177 /* IPAdress.h */,
 			);
 			path = Macro;
+			sourceTree = "<group>";
+		};
+		287993701BB292BC00E45177 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				287993711BB292C600E45177 /* Reachability.h */,
+				287993721BB292C600E45177 /* Reachability.m */,
+				287993741BB2932400E45177 /* PDANetworkTool.h */,
+				287993751BB2932400E45177 /* PDANetworkTool.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		2879937A1BB2972A00E45177 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2879937F1BB297F400E45177 /* UIColor+Hex.h */,
+				287993801BB297F400E45177 /* UIColor+Hex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2879937B1BB297AE00E45177 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2879937C1BB297DD00E45177 /* PDALineView.h */,
+				2879937D1BB297DD00E45177 /* PDALineView.m */,
+				287993821BB29B7900E45177 /* PDATextView.h */,
+				287993831BB29B7900E45177 /* PDATextView.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +248,7 @@
 		287993251BB2863B00E45177 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PDA;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Panda;
 				TargetAttributes = {
@@ -247,9 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2879937E1BB297DD00E45177 /* PDALineView.m in Sources */,
 				287993391BB2863B00E45177 /* ViewController.m in Sources */,
 				287993361BB2863B00E45177 /* AppDelegate.m in Sources */,
+				287993731BB292C600E45177 /* Reachability.m in Sources */,
+				287993811BB297F400E45177 /* UIColor+Hex.m in Sources */,
+				287993841BB29B7900E45177 /* PDATextView.m in Sources */,
 				287993331BB2863B00E45177 /* main.m in Sources */,
+				287993761BB2932400E45177 /* PDANetworkTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +511,7 @@
 				287993521BB2863C00E45177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		287993531BB2863C00E45177 /* Build configuration list for PBXNativeTarget "MyLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +520,7 @@
 				287993551BB2863C00E45177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

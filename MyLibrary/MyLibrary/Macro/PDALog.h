@@ -37,6 +37,11 @@ fprintf(stderr, "\n"); \
 #define ALLLog(...)
 #endif
 
-
+/**Log调用的函数  2 >*/
+#define LogFunc             NSLog(@"%s", __func__);
+/**Log指定视图的边界 3 >*/
+#define LogFrame(view)      NSLog(@"%@", NSStringFromCGRect(view.frame));
+/**Log指定视图中的所有子视图 4 >*/
+#define LogSubViews(view)   NSLog(@"%@", view.subviews);
 
 #endif
