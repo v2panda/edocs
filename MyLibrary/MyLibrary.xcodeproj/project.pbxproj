@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280D82B21BB3DAC1009F8581 /* UIView+ClearAlias.m in Sources */ = {isa = PBXBuildFile; fileRef = 280D82B11BB3DAC1009F8581 /* UIView+ClearAlias.m */; };
+		280D82B51BB3DB73009F8581 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 280D82B41BB3DB73009F8581 /* UIView+Extension.m */; };
+		280D82B81BB3DC98009F8581 /* UIImage+WaterImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 280D82B71BB3DC98009F8581 /* UIImage+WaterImage.m */; };
 		287993331BB2863B00E45177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 287993321BB2863B00E45177 /* main.m */; };
 		287993361BB2863B00E45177 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 287993351BB2863B00E45177 /* AppDelegate.m */; };
 		287993391BB2863B00E45177 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287993381BB2863B00E45177 /* ViewController.m */; };
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		280D82B01BB3DAC1009F8581 /* UIView+ClearAlias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ClearAlias.h"; sourceTree = "<group>"; };
+		280D82B11BB3DAC1009F8581 /* UIView+ClearAlias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ClearAlias.m"; sourceTree = "<group>"; };
+		280D82B31BB3DB73009F8581 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		280D82B41BB3DB73009F8581 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		280D82B61BB3DC98009F8581 /* UIImage+WaterImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WaterImage.h"; sourceTree = "<group>"; };
+		280D82B71BB3DC98009F8581 /* UIImage+WaterImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WaterImage.m"; sourceTree = "<group>"; };
 		2879932D1BB2863B00E45177 /* MyLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287993311BB2863B00E45177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		287993321BB2863B00E45177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -199,6 +208,12 @@
 				28D37D171BB39F2B007A17D8 /* UIView+CornerMaskLayer.m */,
 				28D37D181BB39F2B007A17D8 /* UIView+AddHorizontalLine.h */,
 				28D37D191BB39F2B007A17D8 /* UIView+AddHorizontalLine.m */,
+				280D82B01BB3DAC1009F8581 /* UIView+ClearAlias.h */,
+				280D82B11BB3DAC1009F8581 /* UIView+ClearAlias.m */,
+				280D82B31BB3DB73009F8581 /* UIView+Extension.h */,
+				280D82B41BB3DB73009F8581 /* UIView+Extension.m */,
+				280D82B61BB3DC98009F8581 /* UIImage+WaterImage.h */,
+				280D82B71BB3DC98009F8581 /* UIImage+WaterImage.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -315,15 +330,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280D82B81BB3DC98009F8581 /* UIImage+WaterImage.m in Sources */,
 				2879937E1BB297DD00E45177 /* PDALineView.m in Sources */,
 				287993391BB2863B00E45177 /* ViewController.m in Sources */,
 				287993361BB2863B00E45177 /* AppDelegate.m in Sources */,
 				287993731BB292C600E45177 /* Reachability.m in Sources */,
 				28D37D1B1BB39F2B007A17D8 /* UIView+AddHorizontalLine.m in Sources */,
 				287993811BB297F400E45177 /* UIColor+Hex.m in Sources */,
+				280D82B51BB3DB73009F8581 /* UIView+Extension.m in Sources */,
 				287993841BB29B7900E45177 /* PDATextView.m in Sources */,
 				287993331BB2863B00E45177 /* main.m in Sources */,
 				28D37D1A1BB39F2B007A17D8 /* UIView+CornerMaskLayer.m in Sources */,
+				280D82B21BB3DAC1009F8581 /* UIView+ClearAlias.m in Sources */,
 				287993761BB2932400E45177 /* PDANetworkTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,7 +9,7 @@
 #import "PDALineView.h"
 #import "UIColor+Hex.h"
 
-static NSString *const kLineHeColor = @"#070707";
+static NSString *const kLineHeColor = @"#D7D7D7";
 
 @implementation PDALineView
 
