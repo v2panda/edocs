@@ -19,6 +19,8 @@
 		2879937E1BB297DD00E45177 /* PDALineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2879937D1BB297DD00E45177 /* PDALineView.m */; };
 		287993811BB297F400E45177 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 287993801BB297F400E45177 /* UIColor+Hex.m */; };
 		287993841BB29B7900E45177 /* PDATextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 287993831BB29B7900E45177 /* PDATextView.m */; };
+		28D37D1A1BB39F2B007A17D8 /* UIView+CornerMaskLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D37D171BB39F2B007A17D8 /* UIView+CornerMaskLayer.m */; };
+		28D37D1B1BB39F2B007A17D8 /* UIView+AddHorizontalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D37D191BB39F2B007A17D8 /* UIView+AddHorizontalLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		287993801BB297F400E45177 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		287993821BB29B7900E45177 /* PDATextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDATextView.h; sourceTree = "<group>"; };
 		287993831BB29B7900E45177 /* PDATextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDATextView.m; sourceTree = "<group>"; };
+		28D37D161BB39F2B007A17D8 /* UIView+CornerMaskLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerMaskLayer.h"; sourceTree = "<group>"; };
+		28D37D171BB39F2B007A17D8 /* UIView+CornerMaskLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerMaskLayer.m"; sourceTree = "<group>"; };
+		28D37D181BB39F2B007A17D8 /* UIView+AddHorizontalLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AddHorizontalLine.h"; sourceTree = "<group>"; };
+		28D37D191BB39F2B007A17D8 /* UIView+AddHorizontalLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddHorizontalLine.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +195,10 @@
 			children = (
 				2879937F1BB297F400E45177 /* UIColor+Hex.h */,
 				287993801BB297F400E45177 /* UIColor+Hex.m */,
+				28D37D161BB39F2B007A17D8 /* UIView+CornerMaskLayer.h */,
+				28D37D171BB39F2B007A17D8 /* UIView+CornerMaskLayer.m */,
+				28D37D181BB39F2B007A17D8 /* UIView+AddHorizontalLine.h */,
+				28D37D191BB39F2B007A17D8 /* UIView+AddHorizontalLine.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -309,9 +319,11 @@
 				287993391BB2863B00E45177 /* ViewController.m in Sources */,
 				287993361BB2863B00E45177 /* AppDelegate.m in Sources */,
 				287993731BB292C600E45177 /* Reachability.m in Sources */,
+				28D37D1B1BB39F2B007A17D8 /* UIView+AddHorizontalLine.m in Sources */,
 				287993811BB297F400E45177 /* UIColor+Hex.m in Sources */,
 				287993841BB29B7900E45177 /* PDATextView.m in Sources */,
 				287993331BB2863B00E45177 /* main.m in Sources */,
+				28D37D1A1BB39F2B007A17D8 /* UIView+CornerMaskLayer.m in Sources */,
 				287993761BB2932400E45177 /* PDANetworkTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
