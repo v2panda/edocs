@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "PDATextView.h"
+#import "UIImage+Clipe.h"
 
 @interface ViewController ()
 
@@ -34,6 +35,11 @@
     textView.backgroundColor = [UIColor blackColor];
     textView.textColor = [UIColor redColor];
     [self.view addSubview:textView];
+    
+    
+    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(100, 250, 100, 100)];
+    imageView.image = [UIImage circleImageWithName:@"IMG_0007" borderWidth:2 borderColor:[UIColor cyanColor]];
+    [self.view addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning {

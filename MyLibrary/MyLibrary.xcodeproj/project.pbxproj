@@ -10,6 +10,9 @@
 		280D82B21BB3DAC1009F8581 /* UIView+ClearAlias.m in Sources */ = {isa = PBXBuildFile; fileRef = 280D82B11BB3DAC1009F8581 /* UIView+ClearAlias.m */; };
 		280D82B51BB3DB73009F8581 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 280D82B41BB3DB73009F8581 /* UIView+Extension.m */; };
 		280D82B81BB3DC98009F8581 /* UIImage+WaterImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 280D82B71BB3DC98009F8581 /* UIImage+WaterImage.m */; };
+		286D44841BB4E621000C276C /* UIImage+Fit.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D44831BB4E621000C276C /* UIImage+Fit.m */; };
+		286D44871BB4F058000C276C /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D44861BB4F058000C276C /* UIImage+Color.m */; };
+		286D448A1BB4F08D000C276C /* UIImage+Clipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D44891BB4F08D000C276C /* UIImage+Clipe.m */; };
 		287993331BB2863B00E45177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 287993321BB2863B00E45177 /* main.m */; };
 		287993361BB2863B00E45177 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 287993351BB2863B00E45177 /* AppDelegate.m */; };
 		287993391BB2863B00E45177 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287993381BB2863B00E45177 /* ViewController.m */; };
@@ -43,6 +46,12 @@
 		280D82B41BB3DB73009F8581 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		280D82B61BB3DC98009F8581 /* UIImage+WaterImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WaterImage.h"; sourceTree = "<group>"; };
 		280D82B71BB3DC98009F8581 /* UIImage+WaterImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WaterImage.m"; sourceTree = "<group>"; };
+		286D44821BB4E621000C276C /* UIImage+Fit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Fit.h"; sourceTree = "<group>"; };
+		286D44831BB4E621000C276C /* UIImage+Fit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Fit.m"; sourceTree = "<group>"; };
+		286D44851BB4F058000C276C /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		286D44861BB4F058000C276C /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		286D44881BB4F08D000C276C /* UIImage+Clipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Clipe.h"; sourceTree = "<group>"; };
+		286D44891BB4F08D000C276C /* UIImage+Clipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Clipe.m"; sourceTree = "<group>"; };
 		2879932D1BB2863B00E45177 /* MyLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287993311BB2863B00E45177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		287993321BB2863B00E45177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -214,6 +223,12 @@
 				280D82B41BB3DB73009F8581 /* UIView+Extension.m */,
 				280D82B61BB3DC98009F8581 /* UIImage+WaterImage.h */,
 				280D82B71BB3DC98009F8581 /* UIImage+WaterImage.m */,
+				286D44821BB4E621000C276C /* UIImage+Fit.h */,
+				286D44831BB4E621000C276C /* UIImage+Fit.m */,
+				286D44851BB4F058000C276C /* UIImage+Color.h */,
+				286D44861BB4F058000C276C /* UIImage+Color.m */,
+				286D44881BB4F08D000C276C /* UIImage+Clipe.h */,
+				286D44891BB4F08D000C276C /* UIImage+Clipe.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -333,14 +348,17 @@
 				280D82B81BB3DC98009F8581 /* UIImage+WaterImage.m in Sources */,
 				2879937E1BB297DD00E45177 /* PDALineView.m in Sources */,
 				287993391BB2863B00E45177 /* ViewController.m in Sources */,
+				286D448A1BB4F08D000C276C /* UIImage+Clipe.m in Sources */,
 				287993361BB2863B00E45177 /* AppDelegate.m in Sources */,
 				287993731BB292C600E45177 /* Reachability.m in Sources */,
 				28D37D1B1BB39F2B007A17D8 /* UIView+AddHorizontalLine.m in Sources */,
 				287993811BB297F400E45177 /* UIColor+Hex.m in Sources */,
+				286D44841BB4E621000C276C /* UIImage+Fit.m in Sources */,
 				280D82B51BB3DB73009F8581 /* UIView+Extension.m in Sources */,
 				287993841BB29B7900E45177 /* PDATextView.m in Sources */,
 				287993331BB2863B00E45177 /* main.m in Sources */,
 				28D37D1A1BB39F2B007A17D8 /* UIView+CornerMaskLayer.m in Sources */,
+				286D44871BB4F058000C276C /* UIImage+Color.m in Sources */,
 				280D82B21BB3DAC1009F8581 /* UIView+ClearAlias.m in Sources */,
 				287993761BB2932400E45177 /* PDANetworkTool.m in Sources */,
 			);
