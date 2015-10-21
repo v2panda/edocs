@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		286533891BC8BBEA00A6460D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286533881BC8BBEA00A6460D /* main.m */; };
+		2865338C1BC8BBEA00A6460D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2865338B1BC8BBEA00A6460D /* AppDelegate.m */; };
+		2865338F1BC8BBEA00A6460D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2865338E1BC8BBEA00A6460D /* ViewController.m */; };
+		286533921BC8BBEA00A6460D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286533901BC8BBEA00A6460D /* Main.storyboard */; };
+		286533941BC8BBEA00A6460D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286533931BC8BBEA00A6460D /* Assets.xcassets */; };
+		286533971BC8BBEA00A6460D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286533951BC8BBEA00A6460D /* LaunchScreen.storyboard */; };
+		286533A21BC8BBEA00A6460D /* PopGestureDemo_1010Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286533A11BC8BBEA00A6460D /* PopGestureDemo_1010Tests.m */; };
+		286533AD1BC8BBEA00A6460D /* PopGestureDemo_1010UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286533AC1BC8BBEA00A6460D /* PopGestureDemo_1010UITests.m */; };
+		286533BC1BC8EF2300A6460D /* PDAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286533BB1BC8EF2300A6460D /* PDAViewController.m */; settings = {ASSET_TAGS = (); }; };
+		286533BF1BC8F02B00A6460D /* 返回箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 286533BD1BC8F02B00A6460D /* 返回箭头@2x.png */; settings = {ASSET_TAGS = (); }; };
+		286533C01BC8F02B00A6460D /* 返回箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 286533BE1BC8F02B00A6460D /* 返回箭头@3x.png */; settings = {ASSET_TAGS = (); }; };
+		286533C31BC8F5BF00A6460D /* PDANav.m in Sources */ = {isa = PBXBuildFile; fileRef = 286533C21BC8F5BF00A6460D /* PDANav.m */; settings = {ASSET_TAGS = (); }; };
+		286533CC1BC9000B00A6460D /* UINavigationController+PDAFullScreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 286533CB1BC9000B00A6460D /* UINavigationController+PDAFullScreenPopGesture.m */; settings = {ASSET_TAGS = (); }; };
+		28D52A501BCBA218004A8D1C /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D52A4F1BCBA218004A8D1C /* UINavigationController+FDFullscreenPopGesture.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2865339E1BC8BBEA00A6460D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2865337C1BC8BBE900A6460D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286533831BC8BBE900A6460D;
+			remoteInfo = "PopGestureDemo-1010";
+		};
+		286533A91BC8BBEA00A6460D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2865337C1BC8BBE900A6460D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286533831BC8BBE900A6460D;
+			remoteInfo = "PopGestureDemo-1010";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		286533841BC8BBEA00A6460D /* PopGestureDemo-1010.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PopGestureDemo-1010.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		286533881BC8BBEA00A6460D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2865338A1BC8BBEA00A6460D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2865338B1BC8BBEA00A6460D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2865338D1BC8BBEA00A6460D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2865338E1BC8BBEA00A6460D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		286533911BC8BBEA00A6460D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		286533931BC8BBEA00A6460D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		286533961BC8BBEA00A6460D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		286533981BC8BBEA00A6460D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2865339D1BC8BBEA00A6460D /* PopGestureDemo-1010Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PopGestureDemo-1010Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		286533A11BC8BBEA00A6460D /* PopGestureDemo_1010Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopGestureDemo_1010Tests.m; sourceTree = "<group>"; };
+		286533A31BC8BBEA00A6460D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286533A81BC8BBEA00A6460D /* PopGestureDemo-1010UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PopGestureDemo-1010UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		286533AC1BC8BBEA00A6460D /* PopGestureDemo_1010UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopGestureDemo_1010UITests.m; sourceTree = "<group>"; };
+		286533AE1BC8BBEA00A6460D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286533BA1BC8EF2300A6460D /* PDAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDAViewController.h; sourceTree = "<group>"; };
+		286533BB1BC8EF2300A6460D /* PDAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDAViewController.m; sourceTree = "<group>"; };
+		286533BD1BC8F02B00A6460D /* 返回箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回箭头@2x.png"; sourceTree = "<group>"; };
+		286533BE1BC8F02B00A6460D /* 返回箭头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回箭头@3x.png"; sourceTree = "<group>"; };
+		286533C11BC8F5BF00A6460D /* PDANav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDANav.h; sourceTree = "<group>"; };
+		286533C21BC8F5BF00A6460D /* PDANav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDANav.m; sourceTree = "<group>"; };
+		286533CA1BC9000B00A6460D /* UINavigationController+PDAFullScreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PDAFullScreenPopGesture.h"; sourceTree = "<group>"; };
+		286533CB1BC9000B00A6460D /* UINavigationController+PDAFullScreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+PDAFullScreenPopGesture.m"; sourceTree = "<group>"; };
+		28D52A4E1BCBA218004A8D1C /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		28D52A4F1BCBA218004A8D1C /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		286533811BC8BBE900A6460D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2865339A1BC8BBEA00A6460D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286533A51BC8BBEA00A6460D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2865337B1BC8BBE900A6460D = {
+			isa = PBXGroup;
+			children = (
+				286533861BC8BBEA00A6460D /* PopGestureDemo-1010 */,
+				286533A01BC8BBEA00A6460D /* PopGestureDemo-1010Tests */,
+				286533AB1BC8BBEA00A6460D /* PopGestureDemo-1010UITests */,
+				286533851BC8BBEA00A6460D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		286533851BC8BBEA00A6460D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				286533841BC8BBEA00A6460D /* PopGestureDemo-1010.app */,
+				2865339D1BC8BBEA00A6460D /* PopGestureDemo-1010Tests.xctest */,
+				286533A81BC8BBEA00A6460D /* PopGestureDemo-1010UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		286533861BC8BBEA00A6460D /* PopGestureDemo-1010 */ = {
+			isa = PBXGroup;
+			children = (
+				2865338A1BC8BBEA00A6460D /* AppDelegate.h */,
+				2865338B1BC8BBEA00A6460D /* AppDelegate.m */,
+				2865338D1BC8BBEA00A6460D /* ViewController.h */,
+				2865338E1BC8BBEA00A6460D /* ViewController.m */,
+				286533BA1BC8EF2300A6460D /* PDAViewController.h */,
+				286533BB1BC8EF2300A6460D /* PDAViewController.m */,
+				286533C11BC8F5BF00A6460D /* PDANav.h */,
+				286533C21BC8F5BF00A6460D /* PDANav.m */,
+				286533CA1BC9000B00A6460D /* UINavigationController+PDAFullScreenPopGesture.h */,
+				286533CB1BC9000B00A6460D /* UINavigationController+PDAFullScreenPopGesture.m */,
+				28D52A4E1BCBA218004A8D1C /* UINavigationController+FDFullscreenPopGesture.h */,
+				28D52A4F1BCBA218004A8D1C /* UINavigationController+FDFullscreenPopGesture.m */,
+				286533901BC8BBEA00A6460D /* Main.storyboard */,
+				286533BD1BC8F02B00A6460D /* 返回箭头@2x.png */,
+				286533BE1BC8F02B00A6460D /* 返回箭头@3x.png */,
+				286533931BC8BBEA00A6460D /* Assets.xcassets */,
+				286533951BC8BBEA00A6460D /* LaunchScreen.storyboard */,
+				286533981BC8BBEA00A6460D /* Info.plist */,
+				286533871BC8BBEA00A6460D /* Supporting Files */,
+			);
+			path = "PopGestureDemo-1010";
+			sourceTree = "<group>";
+		};
+		286533871BC8BBEA00A6460D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				286533881BC8BBEA00A6460D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		286533A01BC8BBEA00A6460D /* PopGestureDemo-1010Tests */ = {
+			isa = PBXGroup;
+			children = (
+				286533A11BC8BBEA00A6460D /* PopGestureDemo_1010Tests.m */,
+				286533A31BC8BBEA00A6460D /* Info.plist */,
+			);
+			path = "PopGestureDemo-1010Tests";
+			sourceTree = "<group>";
+		};
+		286533AB1BC8BBEA00A6460D /* PopGestureDemo-1010UITests */ = {
+			isa = PBXGroup;
+			children = (
+				286533AC1BC8BBEA00A6460D /* PopGestureDemo_1010UITests.m */,
+				286533AE1BC8BBEA00A6460D /* Info.plist */,
+			);
+			path = "PopGestureDemo-1010UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		286533831BC8BBE900A6460D /* PopGestureDemo-1010 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286533B11BC8BBEA00A6460D /* Build configuration list for PBXNativeTarget "PopGestureDemo-1010" */;
+			buildPhases = (
+				286533801BC8BBE900A6460D /* Sources */,
+				286533811BC8BBE900A6460D /* Frameworks */,
+				286533821BC8BBE900A6460D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PopGestureDemo-1010";
+			productName = "PopGestureDemo-1010";
+			productReference = 286533841BC8BBEA00A6460D /* PopGestureDemo-1010.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2865339C1BC8BBEA00A6460D /* PopGestureDemo-1010Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286533B41BC8BBEA00A6460D /* Build configuration list for PBXNativeTarget "PopGestureDemo-1010Tests" */;
+			buildPhases = (
+				286533991BC8BBEA00A6460D /* Sources */,
+				2865339A1BC8BBEA00A6460D /* Frameworks */,
+				2865339B1BC8BBEA00A6460D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2865339F1BC8BBEA00A6460D /* PBXTargetDependency */,
+			);
+			name = "PopGestureDemo-1010Tests";
+			productName = "PopGestureDemo-1010Tests";
+			productReference = 2865339D1BC8BBEA00A6460D /* PopGestureDemo-1010Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		286533A71BC8BBEA00A6460D /* PopGestureDemo-1010UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286533B71BC8BBEA00A6460D /* Build configuration list for PBXNativeTarget "PopGestureDemo-1010UITests" */;
+			buildPhases = (
+				286533A41BC8BBEA00A6460D /* Sources */,
+				286533A51BC8BBEA00A6460D /* Frameworks */,
+				286533A61BC8BBEA00A6460D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				286533AA1BC8BBEA00A6460D /* PBXTargetDependency */,
+			);
+			name = "PopGestureDemo-1010UITests";
+			productName = "PopGestureDemo-1010UITests";
+			productReference = 286533A81BC8BBEA00A6460D /* PopGestureDemo-1010UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2865337C1BC8BBE900A6460D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PDA;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Panda;
+				TargetAttributes = {
+					286533831BC8BBE900A6460D = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					2865339C1BC8BBEA00A6460D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 286533831BC8BBE900A6460D;
+					};
+					286533A71BC8BBEA00A6460D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 286533831BC8BBE900A6460D;
+					};
+				};
+			};
+			buildConfigurationList = 2865337F1BC8BBE900A6460D /* Build configuration list for PBXProject "PopGestureDemo-1010" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2865337B1BC8BBE900A6460D;
+			productRefGroup = 286533851BC8BBEA00A6460D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				286533831BC8BBE900A6460D /* PopGestureDemo-1010 */,
+				2865339C1BC8BBEA00A6460D /* PopGestureDemo-1010Tests */,
+				286533A71BC8BBEA00A6460D /* PopGestureDemo-1010UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		286533821BC8BBE900A6460D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286533971BC8BBEA00A6460D /* LaunchScreen.storyboard in Resources */,
+				286533941BC8BBEA00A6460D /* Assets.xcassets in Resources */,
+				286533921BC8BBEA00A6460D /* Main.storyboard in Resources */,
+				286533BF1BC8F02B00A6460D /* 返回箭头@2x.png in Resources */,
+				286533C01BC8F02B00A6460D /* 返回箭头@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2865339B1BC8BBEA00A6460D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286533A61BC8BBEA00A6460D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		286533801BC8BBE900A6460D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2865338F1BC8BBEA00A6460D /* ViewController.m in Sources */,
+				2865338C1BC8BBEA00A6460D /* AppDelegate.m in Sources */,
+				286533C31BC8F5BF00A6460D /* PDANav.m in Sources */,
+				286533BC1BC8EF2300A6460D /* PDAViewController.m in Sources */,
+				286533CC1BC9000B00A6460D /* UINavigationController+PDAFullScreenPopGesture.m in Sources */,
+				28D52A501BCBA218004A8D1C /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				286533891BC8BBEA00A6460D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286533991BC8BBEA00A6460D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286533A21BC8BBEA00A6460D /* PopGestureDemo_1010Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286533A41BC8BBEA00A6460D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286533AD1BC8BBEA00A6460D /* PopGestureDemo_1010UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2865339F1BC8BBEA00A6460D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 286533831BC8BBE900A6460D /* PopGestureDemo-1010 */;
+			targetProxy = 2865339E1BC8BBEA00A6460D /* PBXContainerItemProxy */;
+		};
+		286533AA1BC8BBEA00A6460D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 286533831BC8BBE900A6460D /* PopGestureDemo-1010 */;
+			targetProxy = 286533A91BC8BBEA00A6460D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		286533901BC8BBEA00A6460D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				286533911BC8BBEA00A6460D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		286533951BC8BBEA00A6460D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				286533961BC8BBEA00A6460D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		286533AF1BC8BBEA00A6460D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		286533B01BC8BBEA00A6460D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		286533B21BC8BBEA00A6460D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PopGestureDemo-1010/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDA.PopGestureDemo-1010";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		286533B31BC8BBEA00A6460D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PopGestureDemo-1010/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDA.PopGestureDemo-1010";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		286533B51BC8BBEA00A6460D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PopGestureDemo-1010Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDA.PopGestureDemo-1010Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopGestureDemo-1010.app/PopGestureDemo-1010";
+			};
+			name = Debug;
+		};
+		286533B61BC8BBEA00A6460D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PopGestureDemo-1010Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDA.PopGestureDemo-1010Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopGestureDemo-1010.app/PopGestureDemo-1010";
+			};
+			name = Release;
+		};
+		286533B81BC8BBEA00A6460D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PopGestureDemo-1010UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDA.PopGestureDemo-1010UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "PopGestureDemo-1010";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		286533B91BC8BBEA00A6460D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PopGestureDemo-1010UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDA.PopGestureDemo-1010UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "PopGestureDemo-1010";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2865337F1BC8BBE900A6460D /* Build configuration list for PBXProject "PopGestureDemo-1010" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286533AF1BC8BBEA00A6460D /* Debug */,
+				286533B01BC8BBEA00A6460D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286533B11BC8BBEA00A6460D /* Build configuration list for PBXNativeTarget "PopGestureDemo-1010" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286533B21BC8BBEA00A6460D /* Debug */,
+				286533B31BC8BBEA00A6460D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286533B41BC8BBEA00A6460D /* Build configuration list for PBXNativeTarget "PopGestureDemo-1010Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286533B51BC8BBEA00A6460D /* Debug */,
+				286533B61BC8BBEA00A6460D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286533B71BC8BBEA00A6460D /* Build configuration list for PBXNativeTarget "PopGestureDemo-1010UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286533B81BC8BBEA00A6460D /* Debug */,
+				286533B91BC8BBEA00A6460D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2865337C1BC8BBE900A6460D /* Project object */;
+}
