@@ -1,0 +1,10 @@
+PODS:
+  - AMScrollingNavbar (1.5.1)
+
+DEPENDENCIES:
+  - AMScrollingNavbar
+
+SPEC CHECKSUMS:
+  AMScrollingNavbar: 767ed2db60d927a809bddff5d01b739b7020b12b
+
+COCOAPODS: 0.37.2
