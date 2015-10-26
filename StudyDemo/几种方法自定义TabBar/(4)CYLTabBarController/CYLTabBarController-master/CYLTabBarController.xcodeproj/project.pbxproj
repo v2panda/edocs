@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AE942941BDC91B900354519 /* CYLTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE942931BDC91B900354519 /* CYLTabBarControllerTests.m */; };
+		9AE942E61BDC933E00354519 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE942CA1BDC933E00354519 /* AppDelegate.m */; };
+		9AE942E71BDC933E00354519 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AE942CB1BDC933E00354519 /* LaunchScreen.xib */; };
+		9AE942E81BDC933E00354519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE942CD1BDC933E00354519 /* Main.storyboard */; };
+		9AE942E91BDC933E00354519 /* CYLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE942D21BDC933E00354519 /* CYLHomeViewController.m */; };
+		9AE942EA1BDC933E00354519 /* CYLPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE942D71BDC933E00354519 /* CYLPlusButtonSubclass.m */; };
+		9AE942EB1BDC933E00354519 /* CYLMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE942DA1BDC933E00354519 /* CYLMessageViewController.m */; };
+		9AE942EC1BDC933E00354519 /* CYLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE942DD1BDC933E00354519 /* CYLMineViewController.m */; };
+		9AE942ED1BDC933E00354519 /* CYLSameFityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE942E01BDC933E00354519 /* CYLSameFityViewController.m */; };
+		9AE942EE1BDC933E00354519 /* CYLDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE942E21BDC933E00354519 /* CYLDetailsViewController.m */; };
+		9AE942EF1BDC933E00354519 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE942E31BDC933E00354519 /* Images.xcassets */; };
+		9AE942F01BDC933E00354519 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AE942E41BDC933E00354519 /* Info.plist */; };
+		9AE942F11BDC933E00354519 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE942E51BDC933E00354519 /* main.m */; };
+		9AE942F91BDC937F00354519 /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE942F41BDC937F00354519 /* CYLPlusButton.m */; };
+		9AE942FA1BDC937F00354519 /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE942F61BDC937F00354519 /* CYLTabBar.m */; };
+		9AE942FB1BDC937F00354519 /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE942F81BDC937F00354519 /* CYLTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AE9428E1BDC91B900354519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AE9426C1BDC91B800354519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE942731BDC91B800354519;
+			remoteInfo = CYLTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AE942741BDC91B800354519 /* CYLTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYLTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE9428D1BDC91B900354519 /* CYLTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYLTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE942921BDC91B900354519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AE942931BDC91B900354519 /* CYLTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerTests.m; sourceTree = "<group>"; };
+		9AE942C91BDC933E00354519 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AE942CA1BDC933E00354519 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AE942CC1BDC933E00354519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9AE942CE1BDC933E00354519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AE942D11BDC933E00354519 /* CYLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLHomeViewController.h; sourceTree = "<group>"; };
+		9AE942D21BDC933E00354519 /* CYLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLHomeViewController.m; sourceTree = "<group>"; };
+		9AE942D61BDC933E00354519 /* CYLPlusButtonSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButtonSubclass.h; sourceTree = "<group>"; };
+		9AE942D71BDC933E00354519 /* CYLPlusButtonSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButtonSubclass.m; sourceTree = "<group>"; };
+		9AE942D91BDC933E00354519 /* CYLMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLMessageViewController.h; sourceTree = "<group>"; };
+		9AE942DA1BDC933E00354519 /* CYLMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLMessageViewController.m; sourceTree = "<group>"; };
+		9AE942DC1BDC933E00354519 /* CYLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLMineViewController.h; sourceTree = "<group>"; };
+		9AE942DD1BDC933E00354519 /* CYLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLMineViewController.m; sourceTree = "<group>"; };
+		9AE942DF1BDC933E00354519 /* CYLSameFityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLSameFityViewController.h; sourceTree = "<group>"; };
+		9AE942E01BDC933E00354519 /* CYLSameFityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLSameFityViewController.m; sourceTree = "<group>"; };
+		9AE942E11BDC933E00354519 /* CYLDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLDetailsViewController.h; sourceTree = "<group>"; };
+		9AE942E21BDC933E00354519 /* CYLDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLDetailsViewController.m; sourceTree = "<group>"; };
+		9AE942E31BDC933E00354519 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AE942E41BDC933E00354519 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AE942E51BDC933E00354519 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AE942F31BDC937F00354519 /* CYLPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButton.h; sourceTree = "<group>"; };
+		9AE942F41BDC937F00354519 /* CYLPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButton.m; sourceTree = "<group>"; };
+		9AE942F51BDC937F00354519 /* CYLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBar.h; sourceTree = "<group>"; };
+		9AE942F61BDC937F00354519 /* CYLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBar.m; sourceTree = "<group>"; };
+		9AE942F71BDC937F00354519 /* CYLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarController.h; sourceTree = "<group>"; };
+		9AE942F81BDC937F00354519 /* CYLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AE942711BDC91B800354519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE9428A1BDC91B900354519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AE9426B1BDC91B800354519 = {
+			isa = PBXGroup;
+			children = (
+				9AE942F21BDC937F00354519 /* CYLTabBarController */,
+				9AE942C81BDC933E00354519 /* Example */,
+				9AE942901BDC91B900354519 /* CYLTabBarControllerTests */,
+				9AE942751BDC91B800354519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AE942751BDC91B800354519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942741BDC91B800354519 /* CYLTabBarController.app */,
+				9AE9428D1BDC91B900354519 /* CYLTabBarControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AE942901BDC91B900354519 /* CYLTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942931BDC91B900354519 /* CYLTabBarControllerTests.m */,
+				9AE942911BDC91B900354519 /* Supporting Files */,
+			);
+			path = CYLTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		9AE942911BDC91B900354519 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942921BDC91B900354519 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AE942C81BDC933E00354519 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942CF1BDC933E00354519 /* Classes */,
+				9AE942C91BDC933E00354519 /* AppDelegate.h */,
+				9AE942CA1BDC933E00354519 /* AppDelegate.m */,
+				9AE942CB1BDC933E00354519 /* LaunchScreen.xib */,
+				9AE942CD1BDC933E00354519 /* Main.storyboard */,
+				9AE942E31BDC933E00354519 /* Images.xcassets */,
+				9AE942E41BDC933E00354519 /* Info.plist */,
+				9AE942E51BDC933E00354519 /* main.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		9AE942CF1BDC933E00354519 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942D01BDC933E00354519 /* Home */,
+				9AE942D31BDC933E00354519 /* Main */,
+				9AE942D81BDC933E00354519 /* Message */,
+				9AE942DB1BDC933E00354519 /* Mine */,
+				9AE942DE1BDC933E00354519 /* SameCity */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9AE942D01BDC933E00354519 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942D11BDC933E00354519 /* CYLHomeViewController.h */,
+				9AE942D21BDC933E00354519 /* CYLHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9AE942D31BDC933E00354519 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942D51BDC933E00354519 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9AE942D51BDC933E00354519 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942D61BDC933E00354519 /* CYLPlusButtonSubclass.h */,
+				9AE942D71BDC933E00354519 /* CYLPlusButtonSubclass.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9AE942D81BDC933E00354519 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942D91BDC933E00354519 /* CYLMessageViewController.h */,
+				9AE942DA1BDC933E00354519 /* CYLMessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		9AE942DB1BDC933E00354519 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942DC1BDC933E00354519 /* CYLMineViewController.h */,
+				9AE942DD1BDC933E00354519 /* CYLMineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		9AE942DE1BDC933E00354519 /* SameCity */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942DF1BDC933E00354519 /* CYLSameFityViewController.h */,
+				9AE942E01BDC933E00354519 /* CYLSameFityViewController.m */,
+				9AE942E11BDC933E00354519 /* CYLDetailsViewController.h */,
+				9AE942E21BDC933E00354519 /* CYLDetailsViewController.m */,
+			);
+			path = SameCity;
+			sourceTree = "<group>";
+		};
+		9AE942F21BDC937F00354519 /* CYLTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942F51BDC937F00354519 /* CYLTabBar.h */,
+				9AE942F61BDC937F00354519 /* CYLTabBar.m */,
+				9AE942F71BDC937F00354519 /* CYLTabBarController.h */,
+				9AE942F81BDC937F00354519 /* CYLTabBarController.m */,
+				9AE942F31BDC937F00354519 /* CYLPlusButton.h */,
+				9AE942F41BDC937F00354519 /* CYLPlusButton.m */,
+			);
+			path = CYLTabBarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AE942731BDC91B800354519 /* CYLTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE942971BDC91B900354519 /* Build configuration list for PBXNativeTarget "CYLTabBarController" */;
+			buildPhases = (
+				9AE942701BDC91B800354519 /* Sources */,
+				9AE942711BDC91B800354519 /* Frameworks */,
+				9AE942721BDC91B800354519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYLTabBarController;
+			productName = CYLTabBarController;
+			productReference = 9AE942741BDC91B800354519 /* CYLTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AE9428C1BDC91B900354519 /* CYLTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE9429A1BDC91B900354519 /* Build configuration list for PBXNativeTarget "CYLTabBarControllerTests" */;
+			buildPhases = (
+				9AE942891BDC91B900354519 /* Sources */,
+				9AE9428A1BDC91B900354519 /* Frameworks */,
+				9AE9428B1BDC91B900354519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AE9428F1BDC91B900354519 /* PBXTargetDependency */,
+			);
+			name = CYLTabBarControllerTests;
+			productName = CYLTabBarControllerTests;
+			productReference = 9AE9428D1BDC91B900354519 /* CYLTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AE9426C1BDC91B800354519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "微博@iOS程序犭袁";
+				TargetAttributes = {
+					9AE942731BDC91B800354519 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					9AE9428C1BDC91B900354519 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 9AE942731BDC91B800354519;
+					};
+				};
+			};
+			buildConfigurationList = 9AE9426F1BDC91B800354519 /* Build configuration list for PBXProject "CYLTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AE9426B1BDC91B800354519;
+			productRefGroup = 9AE942751BDC91B800354519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AE942731BDC91B800354519 /* CYLTabBarController */,
+				9AE9428C1BDC91B900354519 /* CYLTabBarControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AE942721BDC91B800354519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE942F01BDC933E00354519 /* Info.plist in Resources */,
+				9AE942EF1BDC933E00354519 /* Images.xcassets in Resources */,
+				9AE942E71BDC933E00354519 /* LaunchScreen.xib in Resources */,
+				9AE942E81BDC933E00354519 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE9428B1BDC91B900354519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AE942701BDC91B800354519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE942EA1BDC933E00354519 /* CYLPlusButtonSubclass.m in Sources */,
+				9AE942F91BDC937F00354519 /* CYLPlusButton.m in Sources */,
+				9AE942EC1BDC933E00354519 /* CYLMineViewController.m in Sources */,
+				9AE942EB1BDC933E00354519 /* CYLMessageViewController.m in Sources */,
+				9AE942EE1BDC933E00354519 /* CYLDetailsViewController.m in Sources */,
+				9AE942ED1BDC933E00354519 /* CYLSameFityViewController.m in Sources */,
+				9AE942E91BDC933E00354519 /* CYLHomeViewController.m in Sources */,
+				9AE942FB1BDC937F00354519 /* CYLTabBarController.m in Sources */,
+				9AE942F11BDC933E00354519 /* main.m in Sources */,
+				9AE942FA1BDC937F00354519 /* CYLTabBar.m in Sources */,
+				9AE942E61BDC933E00354519 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE942891BDC91B900354519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE942941BDC91B900354519 /* CYLTabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AE9428F1BDC91B900354519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AE942731BDC91B800354519 /* CYLTabBarController */;
+			targetProxy = 9AE9428E1BDC91B900354519 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AE942CB1BDC933E00354519 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AE942CC1BDC933E00354519 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		9AE942CD1BDC933E00354519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AE942CE1BDC933E00354519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AE942951BDC91B900354519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AE942961BDC91B900354519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AE942981BDC91B900354519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AE942991BDC91B900354519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AE9429B1BDC91B900354519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CYLTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYLTabBarController.app/CYLTabBarController";
+			};
+			name = Debug;
+		};
+		9AE9429C1BDC91B900354519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CYLTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYLTabBarController.app/CYLTabBarController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AE9426F1BDC91B800354519 /* Build configuration list for PBXProject "CYLTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE942951BDC91B900354519 /* Debug */,
+				9AE942961BDC91B900354519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE942971BDC91B900354519 /* Build configuration list for PBXNativeTarget "CYLTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE942981BDC91B900354519 /* Debug */,
+				9AE942991BDC91B900354519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE9429A1BDC91B900354519 /* Build configuration list for PBXNativeTarget "CYLTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE9429B1BDC91B900354519 /* Debug */,
+				9AE9429C1BDC91B900354519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AE9426C1BDC91B800354519 /* Project object */;
+}
