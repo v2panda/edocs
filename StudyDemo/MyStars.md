@@ -2,6 +2,7 @@
 
 Resource on GitHub
 
+<a href="#动画a">UIWebView</a>
 
 
 ***
@@ -10,6 +11,8 @@ Resource on GitHub
 [M80AttributedLabel](https://github.com/xiangwangfeng/M80AttributedLabel) Another attributed label using CoreText,[博客详解][id]
 [id]:http://xiangwangfeng.com/2014/03/06/iOS%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88(CoreText)%E9%82%A3%E4%BA%9B%E4%BA%8B/
 [TYAttributedLabel](https://github.com/12207480/TYAttributedLabel)  貌似是copy上面的，有些许改进
+
+[YYText](https://github.com/ibireme/YYText) 不能再赞
 
 **[DDRichText](https://github.com/daiweilai/DDRichText)**
 附带了微信朋友圈Demo,[博客详解](http://www.cnblogs.com/daiweilai/p/4304500.html)
