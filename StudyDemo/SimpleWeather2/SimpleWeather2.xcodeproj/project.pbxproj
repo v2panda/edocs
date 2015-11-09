@@ -11,10 +11,17 @@
 		2842D8DC1BE1E6A700291200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2842D8DA1BE1E6A700291200 /* Main.storyboard */; };
 		2842D8DE1BE1E6A700291200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2842D8DD1BE1E6A700291200 /* Assets.xcassets */; };
 		2842D8E11BE1E6A700291200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2842D8DF1BE1E6A700291200 /* LaunchScreen.storyboard */; };
-		2842D8F01BE1F01100291200 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2842D8EE1BE1F01100291200 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
-		2842D8FA1BE1F0A900291200 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2842D8F31BE1F0A900291200 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		2842D8FD1BE1F13200291200 /* SWNetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2842D8FC1BE1F13200291200 /* SWNetHelper.m */; settings = {ASSET_TAGS = (); }; };
-		2842D9011BE1F94F00291200 /* NSString+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 2842D9001BE1F94F00291200 /* NSString+Date.m */; settings = {ASSET_TAGS = (); }; };
+		2842D8FA1BE1F0A900291200 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2842D8F31BE1F0A900291200 /* AppDelegate.m */; };
+		2842D8FD1BE1F13200291200 /* SWNetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2842D8FC1BE1F13200291200 /* SWNetHelper.m */; };
+		2842D9011BE1F94F00291200 /* NSString+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 2842D9001BE1F94F00291200 /* NSString+Date.m */; };
+		28716C061BF06AB1007BFB4F /* SWColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28716C051BF06AB1007BFB4F /* SWColorCell.m */; };
+		28716C121BF07994007BFB4F /* SWColorPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28716C101BF07994007BFB4F /* SWColorPickerCell.m */; };
+		28716C131BF07994007BFB4F /* SWColorPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28716C111BF07994007BFB4F /* SWColorPickerCell.xib */; };
+		2882C8301BEC507A00CCABB0 /* WeatherLazy framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2882C82F1BEC507A00CCABB0 /* WeatherLazy framed.png */; };
+		28B286F51BEB2C7700B75B9C /* SWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B286F41BEB2C7700B75B9C /* SWRootViewController.m */; };
+		28B286F81BEB335900B75B9C /* SWPageViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B286F71BEB335900B75B9C /* SWPageViewDataSource.m */; };
+		28B286FB1BEB3CF600B75B9C /* SWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B286FA1BEB3CF600B75B9C /* SWHomeViewController.m */; };
+		28B286FE1BEB3D0C00B75B9C /* SWSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B286FD1BEB3D0C00B75B9C /* SWSettingViewController.m */; };
 		A6F6079930659E3901CBFDF8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B967788455FEC27DC63AF22 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -26,8 +33,6 @@
 		2842D8E01BE1E6A700291200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2842D8E21BE1E6A700291200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2842D8E81BE1E90500291200 /* SW.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SW.pch; sourceTree = "<group>"; };
-		2842D8ED1BE1F01100291200 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
-		2842D8EE1BE1F01100291200 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		2842D8F21BE1F0A900291200 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2842D8F31BE1F0A900291200 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2842D8FB1BE1F13200291200 /* SWNetHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNetHelper.h; sourceTree = "<group>"; };
@@ -37,6 +42,20 @@
 		2842D9001BE1F94F00291200 /* NSString+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Date.m"; sourceTree = "<group>"; };
 		2842D9021BE1FF3A00291200 /* PDALog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDALog.h; sourceTree = "<group>"; };
 		2842D90C1BE2044E00291200 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		28716C041BF06AB1007BFB4F /* SWColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWColorCell.h; sourceTree = "<group>"; };
+		28716C051BF06AB1007BFB4F /* SWColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWColorCell.m; sourceTree = "<group>"; };
+		28716C0F1BF07994007BFB4F /* SWColorPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWColorPickerCell.h; sourceTree = "<group>"; };
+		28716C101BF07994007BFB4F /* SWColorPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWColorPickerCell.m; sourceTree = "<group>"; };
+		28716C111BF07994007BFB4F /* SWColorPickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWColorPickerCell.xib; sourceTree = "<group>"; };
+		2882C82F1BEC507A00CCABB0 /* WeatherLazy framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WeatherLazy framed.png"; sourceTree = "<group>"; };
+		28B286F31BEB2C7700B75B9C /* SWRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRootViewController.h; sourceTree = "<group>"; };
+		28B286F41BEB2C7700B75B9C /* SWRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRootViewController.m; sourceTree = "<group>"; };
+		28B286F61BEB335900B75B9C /* SWPageViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPageViewDataSource.h; sourceTree = "<group>"; };
+		28B286F71BEB335900B75B9C /* SWPageViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPageViewDataSource.m; sourceTree = "<group>"; };
+		28B286F91BEB3CF600B75B9C /* SWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWHomeViewController.h; sourceTree = "<group>"; };
+		28B286FA1BEB3CF600B75B9C /* SWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWHomeViewController.m; sourceTree = "<group>"; };
+		28B286FC1BEB3D0C00B75B9C /* SWSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSettingViewController.h; sourceTree = "<group>"; };
+		28B286FD1BEB3D0C00B75B9C /* SWSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSettingViewController.m; sourceTree = "<group>"; };
 		4B967788455FEC27DC63AF22 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		805D30458C3EB82AA1D3FCEF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CA2EB37A97651826DDA62EEE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,8 +148,11 @@
 		2842D8F41BE1F0A900291200 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				28716BFB1BF06551007BFB4F /* Cells */,
 				2842D8FF1BE1F94F00291200 /* NSString+Date.h */,
 				2842D9001BE1F94F00291200 /* NSString+Date.m */,
+				28B286F61BEB335900B75B9C /* SWPageViewDataSource.h */,
+				28B286F71BEB335900B75B9C /* SWPageViewDataSource.m */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -157,6 +179,7 @@
 		2842D8F71BE1F0A900291200 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2882C82F1BEC507A00CCABB0 /* WeatherLazy framed.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -164,8 +187,12 @@
 		2842D8F81BE1F0A900291200 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
-				2842D8ED1BE1F01100291200 /* ViewController.h */,
-				2842D8EE1BE1F01100291200 /* ViewController.m */,
+				28B286F31BEB2C7700B75B9C /* SWRootViewController.h */,
+				28B286F41BEB2C7700B75B9C /* SWRootViewController.m */,
+				28B286F91BEB3CF600B75B9C /* SWHomeViewController.h */,
+				28B286FA1BEB3CF600B75B9C /* SWHomeViewController.m */,
+				28B286FC1BEB3D0C00B75B9C /* SWSettingViewController.h */,
+				28B286FD1BEB3D0C00B75B9C /* SWSettingViewController.m */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -175,6 +202,18 @@
 			children = (
 			);
 			path = Vendors;
+			sourceTree = "<group>";
+		};
+		28716BFB1BF06551007BFB4F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				28716C041BF06AB1007BFB4F /* SWColorCell.h */,
+				28716C051BF06AB1007BFB4F /* SWColorCell.m */,
+				28716C0F1BF07994007BFB4F /* SWColorPickerCell.h */,
+				28716C101BF07994007BFB4F /* SWColorPickerCell.m */,
+				28716C111BF07994007BFB4F /* SWColorPickerCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		56B19EA8BDE0E2A77B46426D /* Frameworks */ = {
@@ -245,6 +284,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2882C8301BEC507A00CCABB0 /* WeatherLazy framed.png in Resources */,
+				28716C131BF07994007BFB4F /* SWColorPickerCell.xib in Resources */,
 				2842D8E11BE1E6A700291200 /* LaunchScreen.storyboard in Resources */,
 				2842D8DE1BE1E6A700291200 /* Assets.xcassets in Resources */,
 				2842D8DC1BE1E6A700291200 /* Main.storyboard in Resources */,
@@ -292,8 +333,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2842D9011BE1F94F00291200 /* NSString+Date.m in Sources */,
-				2842D8F01BE1F01100291200 /* ViewController.m in Sources */,
+				28B286F51BEB2C7700B75B9C /* SWRootViewController.m in Sources */,
+				28B286FB1BEB3CF600B75B9C /* SWHomeViewController.m in Sources */,
+				28B286FE1BEB3D0C00B75B9C /* SWSettingViewController.m in Sources */,
+				28B286F81BEB335900B75B9C /* SWPageViewDataSource.m in Sources */,
+				28716C121BF07994007BFB4F /* SWColorPickerCell.m in Sources */,
 				2842D8FD1BE1F13200291200 /* SWNetHelper.m in Sources */,
+				28716C061BF06AB1007BFB4F /* SWColorCell.m in Sources */,
 				2842D8D31BE1E6A700291200 /* main.m in Sources */,
 				2842D8FA1BE1F0A900291200 /* AppDelegate.m in Sources */,
 			);
