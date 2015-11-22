@@ -15,14 +15,14 @@
 		7C9ECB401BDFB5410007308C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9ECB3E1BDFB5410007308C /* LaunchScreen.storyboard */; };
 		7C9ECB4B1BDFB5410007308C /* Demo___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9ECB4A1BDFB5410007308C /* Demo___Tests.m */; };
 		7C9ECB561BDFB5410007308C /* Demo___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9ECB551BDFB5410007308C /* Demo___UITests.m */; };
-		7C9ECB681BDFB56C0007308C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9ECB631BDFB56C0007308C /* logo.png */; settings = {ASSET_TAGS = (); }; };
-		7C9ECB691BDFB56C0007308C /* startImage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9ECB641BDFB56C0007308C /* startImage1.png */; settings = {ASSET_TAGS = (); }; };
-		7C9ECB6A1BDFB56C0007308C /* startImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9ECB651BDFB56C0007308C /* startImage2.png */; settings = {ASSET_TAGS = (); }; };
-		7C9ECB6B1BDFB56C0007308C /* startImage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9ECB661BDFB56C0007308C /* startImage3.png */; settings = {ASSET_TAGS = (); }; };
-		7C9ECB6C1BDFB56C0007308C /* startImage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9ECB671BDFB56C0007308C /* startImage4.png */; settings = {ASSET_TAGS = (); }; };
-		7C9ECB6F1BDFB5790007308C /* YFStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9ECB6E1BDFB5790007308C /* YFStartView.m */; settings = {ASSET_TAGS = (); }; };
-		7C9ECB731BDFB8080007308C /* StartButtomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9ECB711BDFB8080007308C /* StartButtomView.m */; settings = {ASSET_TAGS = (); }; };
-		7C9ECB741BDFB8080007308C /* StartButtomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C9ECB721BDFB8080007308C /* StartButtomView.xib */; settings = {ASSET_TAGS = (); }; };
+		7C9ECB681BDFB56C0007308C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9ECB631BDFB56C0007308C /* logo.png */; };
+		7C9ECB691BDFB56C0007308C /* startImage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9ECB641BDFB56C0007308C /* startImage1.png */; };
+		7C9ECB6A1BDFB56C0007308C /* startImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9ECB651BDFB56C0007308C /* startImage2.png */; };
+		7C9ECB6B1BDFB56C0007308C /* startImage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9ECB661BDFB56C0007308C /* startImage3.png */; };
+		7C9ECB6C1BDFB56C0007308C /* startImage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9ECB671BDFB56C0007308C /* startImage4.png */; };
+		7C9ECB6F1BDFB5790007308C /* YFStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9ECB6E1BDFB5790007308C /* YFStartView.m */; };
+		7C9ECB731BDFB8080007308C /* StartButtomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9ECB711BDFB8080007308C /* StartButtomView.m */; };
+		7C9ECB741BDFB8080007308C /* StartButtomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C9ECB721BDFB8080007308C /* StartButtomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -534,6 +534,7 @@
 				7C9ECB5C1BDFB5410007308C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C9ECB5D1BDFB5410007308C /* Build configuration list for PBXNativeTarget "Demo启动图Tests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +543,7 @@
 				7C9ECB5F1BDFB5410007308C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C9ECB601BDFB5410007308C /* Build configuration list for PBXNativeTarget "Demo启动图UITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +552,7 @@
 				7C9ECB621BDFB5410007308C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
