@@ -17,3 +17,5 @@
 [HTY360Player](https://github.com/hanton/HTY360Player)	A iOS player for playing 360° video with gyroscope.
 
 [VCTransitionsLibrary](https://github.com/ColinEberhardt/VCTransitionsLibrary)	界面跳转交互
+
+[WFCoretext](https://github.com/TigerWf/WFCoretext) 基于coretext的类似微信朋友圈的图文混排与简易阅读器
