@@ -1,0 +1,16 @@
+target 'Demo_LiuAGeiOS' do
+    pod 'SnapKit', '~> 0.21.0'
+    pod 'YYWebImage', '1.0.3'
+    pod 'SVProgressHUD', '~> 2.0.3'
+    pod 'SDCycleScrollView','~> 1.3'
+    pod 'Alamofire', '~> 3.4.0'
+    pod 'SwiftyJSON', '~> 2.3.2'
+    pod 'MJRefresh', '~> 3.1.0'
+    pod 'pop', '~> 1.0.9'
+    pod 'IQKeyboardManagerSwift'
+    pod 'GRMustache.swift', '~> 1.0'
+    pod 'FMDB'
+    pod 'RxSwift',    '~> 2.0'
+    pod 'RxCocoa',    '~> 2.0'
+  use_frameworks!
+end

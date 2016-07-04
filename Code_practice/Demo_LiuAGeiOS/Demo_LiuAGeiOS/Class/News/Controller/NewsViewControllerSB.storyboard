@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="h3T-ZN-v2v">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Nke-OA-954">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="h3T-ZN-v2v" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CwQ-hC-ZpG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="h3g-tD-7fk" kind="relationship" relationship="rootViewController" id="o6w-rl-ABo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nGm-o9-YMD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="353" y="411"/>
+        </scene>
+        <!--v2panda-->
+        <scene sceneID="tjr-iP-y9F">
+            <objects>
+                <viewController id="h3g-tD-7fk" customClass="NewsViewController" customModule="Demo_LiuAGeiOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ULy-AN-54z"/>
+                        <viewControllerLayoutGuide type="bottom" id="jDO-BV-f5k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nnq-5B-UuJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbY-1e-KCS">
+                                <rect key="frame" x="560" y="64" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="BAd-qg-tnB"/>
+                                    <constraint firstAttribute="width" constant="40" id="R9Z-U2-9W6"/>
+                                </constraints>
+                                <state key="normal" image="channel_nav_plus"/>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j88-u8-Mno">
+                                <rect key="frame" x="0.0" y="64" width="560" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2Gg-iF-Sl2"/>
+                                </constraints>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IEZ-1W-VdX">
+                                <rect key="frame" x="0.0" y="104" width="600" height="496"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="vbY-1e-KCS" secondAttribute="trailing" id="3gk-rr-hiV"/>
+                            <constraint firstItem="IEZ-1W-VdX" firstAttribute="leading" secondItem="nnq-5B-UuJ" secondAttribute="leading" id="55a-fO-l0x"/>
+                            <constraint firstItem="jDO-BV-f5k" firstAttribute="top" secondItem="IEZ-1W-VdX" secondAttribute="bottom" id="YKc-Oq-wHT"/>
+                            <constraint firstAttribute="trailing" secondItem="IEZ-1W-VdX" secondAttribute="trailing" id="a2n-H5-vEJ"/>
+                            <constraint firstItem="IEZ-1W-VdX" firstAttribute="top" secondItem="j88-u8-Mno" secondAttribute="bottom" id="bdL-jE-zSR"/>
+                            <constraint firstItem="vbY-1e-KCS" firstAttribute="leading" secondItem="j88-u8-Mno" secondAttribute="trailing" id="bzN-Gs-xcQ"/>
+                            <constraint firstItem="vbY-1e-KCS" firstAttribute="top" secondItem="ULy-AN-54z" secondAttribute="bottom" id="iLw-xG-v0c"/>
+                            <constraint firstItem="j88-u8-Mno" firstAttribute="top" secondItem="ULy-AN-54z" secondAttribute="bottom" id="jVl-Jv-qEn"/>
+                            <constraint firstItem="j88-u8-Mno" firstAttribute="leading" secondItem="nnq-5B-UuJ" secondAttribute="leading" id="qCy-u3-cVl"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="v2panda" id="SbM-0x-rNV"/>
+                    <connections>
+                        <outlet property="arrowButton" destination="vbY-1e-KCS" id="a8Q-nm-l5S"/>
+                        <outlet property="contentScrollView" destination="IEZ-1W-VdX" id="wZz-6J-6jt"/>
+                        <outlet property="topScrollView" destination="j88-u8-Mno" id="dih-7J-fAx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gwy-u1-Fgd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1207" y="405"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="channel_nav_plus" width="19" height="19"/>
+    </resources>
+</document>

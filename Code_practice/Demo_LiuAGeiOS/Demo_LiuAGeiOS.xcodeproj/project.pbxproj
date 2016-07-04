@@ -7,21 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281EFBF71D2A0B0700F78FA6 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281EFBF61D2A0B0700F78FA6 /* NewsDetailViewController.swift */; };
+		281EFBFA1D2A0F6B00F78FA6 /* NewsViewControllerSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281EFBF91D2A0F6B00F78FA6 /* NewsViewControllerSB.storyboard */; };
+		281EFBFE1D2A390F00F78FA6 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281EFBFD1D2A390F00F78FA6 /* Common.swift */; };
+		281EFC001D2A391900F78FA6 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281EFBFF1D2A391900F78FA6 /* Api.swift */; };
+		281EFC041D2A3FBA00F78FA6 /* PDTopLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281EFC031D2A3FBA00F78FA6 /* PDTopLabel.swift */; };
+		281EFC081D2A41B700F78FA6 /* UIColor+PDAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281EFC071D2A41B700F78FA6 /* UIColor+PDAdd.swift */; };
 		28E6FB851D28C3E0001B4AD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E6FB841D28C3E0001B4AD5 /* AppDelegate.swift */; };
-		28E6FB871D28C3E0001B4AD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E6FB861D28C3E0001B4AD5 /* ViewController.swift */; };
 		28E6FB8A1D28C3E0001B4AD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E6FB881D28C3E0001B4AD5 /* Main.storyboard */; };
 		28E6FB8C1D28C3E0001B4AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E6FB8B1D28C3E0001B4AD5 /* Assets.xcassets */; };
 		28E6FB8F1D28C3E0001B4AD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E6FB8D1D28C3E0001B4AD5 /* LaunchScreen.storyboard */; };
+		28E6FBA11D290174001B4AD5 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E6FBA01D290174001B4AD5 /* NewsViewController.swift */; };
+		5521DE27D36B9B13BFA79FE0 /* Pods_Demo_LiuAGeiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53ABF254BCBEF5F0131FF4E0 /* Pods_Demo_LiuAGeiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		281EFBF61D2A0B0700F78FA6 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		281EFBF91D2A0F6B00F78FA6 /* NewsViewControllerSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NewsViewControllerSB.storyboard; sourceTree = "<group>"; };
+		281EFBFB1D2A388800F78FA6 /* Demo_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_Header.h; sourceTree = "<group>"; };
+		281EFBFD1D2A390F00F78FA6 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		281EFBFF1D2A391900F78FA6 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		281EFC031D2A3FBA00F78FA6 /* PDTopLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PDTopLabel.swift; path = Demo_LiuAGeiOS/Class/News/Controller/PDTopLabel.swift; sourceTree = SOURCE_ROOT; };
+		281EFC071D2A41B700F78FA6 /* UIColor+PDAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+PDAdd.swift"; path = "Demo_LiuAGeiOS/Class/News/Controller/UIColor+PDAdd.swift"; sourceTree = SOURCE_ROOT; };
 		28E6FB811D28C3E0001B4AD5 /* Demo_LiuAGeiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_LiuAGeiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E6FB841D28C3E0001B4AD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28E6FB861D28C3E0001B4AD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28E6FB891D28C3E0001B4AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28E6FB8B1D28C3E0001B4AD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28E6FB8E1D28C3E0001B4AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28E6FB901D28C3E0001B4AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E6FBA01D290174001B4AD5 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		53ABF254BCBEF5F0131FF4E0 /* Pods_Demo_LiuAGeiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_LiuAGeiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57ECAA6FDB043C27EC58A9B5 /* Pods-Demo_LiuAGeiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_LiuAGeiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo_LiuAGeiOS/Pods-Demo_LiuAGeiOS.release.xcconfig"; sourceTree = "<group>"; };
+		8446979D19744DA1AAB88F5F /* Pods-Demo_LiuAGeiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_LiuAGeiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo_LiuAGeiOS/Pods-Demo_LiuAGeiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,16 +46,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5521DE27D36B9B13BFA79FE0 /* Pods_Demo_LiuAGeiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05FDBD40244CECDA29788FC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53ABF254BCBEF5F0131FF4E0 /* Pods_Demo_LiuAGeiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		281EFBF81D2A0CAA00F78FA6 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				281EFBF61D2A0B0700F78FA6 /* NewsDetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		281EFBFC1D2A38E100F78FA6 /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+				281EFBFF1D2A391900F78FA6 /* Api.swift */,
+				281EFBFD1D2A390F00F78FA6 /* Common.swift */,
+			);
+			path = Marco;
+			sourceTree = "<group>";
+		};
 		28E6FB781D28C3E0001B4AD5 = {
 			isa = PBXGroup;
 			children = (
 				28E6FB831D28C3E0001B4AD5 /* Demo_LiuAGeiOS */,
+				05FDBD40244CECDA29788FC4 /* Frameworks */,
+				888578E0900A816036FBCF9E /* Pods */,
 				28E6FB821D28C3E0001B4AD5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +99,109 @@
 		28E6FB831D28C3E0001B4AD5 /* Demo_LiuAGeiOS */ = {
 			isa = PBXGroup;
 			children = (
-				28E6FB841D28C3E0001B4AD5 /* AppDelegate.swift */,
-				28E6FB861D28C3E0001B4AD5 /* ViewController.swift */,
-				28E6FB881D28C3E0001B4AD5 /* Main.storyboard */,
-				28E6FB8B1D28C3E0001B4AD5 /* Assets.xcassets */,
-				28E6FB8D1D28C3E0001B4AD5 /* LaunchScreen.storyboard */,
-				28E6FB901D28C3E0001B4AD5 /* Info.plist */,
+				28E6FB961D28FFAB001B4AD5 /* Class */,
 			);
 			path = Demo_LiuAGeiOS;
+			sourceTree = "<group>";
+		};
+		28E6FB961D28FFAB001B4AD5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				28E6FB971D28FFB1001B4AD5 /* AppDelegate */,
+				28E6FB981D290013001B4AD5 /* Categoties */,
+				281EFBFC1D2A38E100F78FA6 /* Marco */,
+				28E6FB9A1D29002C001B4AD5 /* News */,
+				28E6FB9B1D29005C001B4AD5 /* Others */,
+				28E6FB9C1D290070001B4AD5 /* Utils */,
+				28E6FB991D29001F001B4AD5 /* Vendor */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		28E6FB971D28FFB1001B4AD5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				28E6FB841D28C3E0001B4AD5 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		28E6FB981D290013001B4AD5 /* Categoties */ = {
+			isa = PBXGroup;
+			children = (
+				281EFC071D2A41B700F78FA6 /* UIColor+PDAdd.swift */,
+			);
+			path = Categoties;
+			sourceTree = "<group>";
+		};
+		28E6FB991D29001F001B4AD5 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		28E6FB9A1D29002C001B4AD5 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				28E6FB9D1D290098001B4AD5 /* Controller */,
+				28E6FB9F1D2900A9001B4AD5 /* Model */,
+				28E6FB9E1D29009F001B4AD5 /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		28E6FB9B1D29005C001B4AD5 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				28E6FB8B1D28C3E0001B4AD5 /* Assets.xcassets */,
+				28E6FB901D28C3E0001B4AD5 /* Info.plist */,
+				28E6FB8D1D28C3E0001B4AD5 /* LaunchScreen.storyboard */,
+				28E6FB881D28C3E0001B4AD5 /* Main.storyboard */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		28E6FB9C1D290070001B4AD5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				281EFBFB1D2A388800F78FA6 /* Demo_Header.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		28E6FB9D1D290098001B4AD5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				281EFBF81D2A0CAA00F78FA6 /* Detail */,
+				28E6FBA01D290174001B4AD5 /* NewsViewController.swift */,
+				281EFBF91D2A0F6B00F78FA6 /* NewsViewControllerSB.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		28E6FB9E1D29009F001B4AD5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				281EFC031D2A3FBA00F78FA6 /* PDTopLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28E6FB9F1D2900A9001B4AD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		888578E0900A816036FBCF9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8446979D19744DA1AAB88F5F /* Pods-Demo_LiuAGeiOS.debug.xcconfig */,
+				57ECAA6FDB043C27EC58A9B5 /* Pods-Demo_LiuAGeiOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28E6FB931D28C3E0001B4AD5 /* Build configuration list for PBXNativeTarget "Demo_LiuAGeiOS" */;
 			buildPhases = (
+				15CDE9FFBCF7796A1C2F4F2F /* Check Pods Manifest.lock */,
 				28E6FB7D1D28C3E0001B4AD5 /* Sources */,
 				28E6FB7E1D28C3E0001B4AD5 /* Frameworks */,
 				28E6FB7F1D28C3E0001B4AD5 /* Resources */,
+				5216745714E1C9DA7EA1A8D4 /* Embed Pods Frameworks */,
+				0CF13D4B9F1AB5A752295912 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,18 +268,72 @@
 				28E6FB8F1D28C3E0001B4AD5 /* LaunchScreen.storyboard in Resources */,
 				28E6FB8C1D28C3E0001B4AD5 /* Assets.xcassets in Resources */,
 				28E6FB8A1D28C3E0001B4AD5 /* Main.storyboard in Resources */,
+				281EFBFA1D2A0F6B00F78FA6 /* NewsViewControllerSB.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CF13D4B9F1AB5A752295912 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo_LiuAGeiOS/Pods-Demo_LiuAGeiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15CDE9FFBCF7796A1C2F4F2F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5216745714E1C9DA7EA1A8D4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo_LiuAGeiOS/Pods-Demo_LiuAGeiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28E6FB7D1D28C3E0001B4AD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E6FB871D28C3E0001B4AD5 /* ViewController.swift in Sources */,
+				281EFC041D2A3FBA00F78FA6 /* PDTopLabel.swift in Sources */,
+				281EFBFE1D2A390F00F78FA6 /* Common.swift in Sources */,
+				281EFBF71D2A0B0700F78FA6 /* NewsDetailViewController.swift in Sources */,
+				281EFC081D2A41B700F78FA6 /* UIColor+PDAdd.swift in Sources */,
 				28E6FB851D28C3E0001B4AD5 /* AppDelegate.swift in Sources */,
+				281EFC001D2A391900F78FA6 /* Api.swift in Sources */,
+				28E6FBA11D290174001B4AD5 /* NewsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +346,7 @@
 				28E6FB891D28C3E0001B4AD5 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		28E6FB8D1D28C3E0001B4AD5 /* LaunchScreen.storyboard */ = {
@@ -157,6 +355,7 @@
 				28E6FB8E1D28C3E0001B4AD5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -249,9 +448,11 @@
 		};
 		28E6FB941D28C3E0001B4AD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8446979D19744DA1AAB88F5F /* Pods-Demo_LiuAGeiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Demo_LiuAGeiOS/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Class/Utils/Demo_Header.h";
+				INFOPLIST_FILE = Demo_LiuAGeiOS/Class/Others/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PD.Demo-LiuAGeiOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -260,9 +461,11 @@
 		};
 		28E6FB951D28C3E0001B4AD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57ECAA6FDB043C27EC58A9B5 /* Pods-Demo_LiuAGeiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Demo_LiuAGeiOS/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Class/Utils/Demo_Header.h";
+				INFOPLIST_FILE = Demo_LiuAGeiOS/Class/Others/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PD.Demo-LiuAGeiOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,6 +491,7 @@
 				28E6FB951D28C3E0001B4AD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
