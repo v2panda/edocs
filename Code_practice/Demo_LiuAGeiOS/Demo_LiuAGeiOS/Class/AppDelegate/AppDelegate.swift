@@ -31,5 +31,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
     }
 
+    func applicationDidEnterBackground(application: UIApplication) {
+        NewsDALManager.shareManager.clearCacheData()
+    }
+    
 }
 

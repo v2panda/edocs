@@ -38,6 +38,7 @@ class JFNewsTableViewController: UIViewController, SDCycleScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         prepareTableView()
+        
     }
     
     /**

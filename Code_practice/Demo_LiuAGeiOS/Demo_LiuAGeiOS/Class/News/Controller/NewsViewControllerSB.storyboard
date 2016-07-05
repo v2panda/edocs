@@ -42,8 +42,11 @@
                                     <constraint firstAttribute="width" constant="40" id="R9Z-U2-9W6"/>
                                 </constraints>
                                 <state key="normal" image="channel_nav_plus"/>
+                                <connections>
+                                    <action selector="didTappedArrowButton:" destination="h3g-tD-7fk" eventType="touchUpInside" id="cFF-C1-tTg"/>
+                                </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j88-u8-Mno">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j88-u8-Mno">
                                 <rect key="frame" x="0.0" y="64" width="560" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="2Gg-iF-Sl2"/>
@@ -51,6 +54,9 @@
                             </scrollView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IEZ-1W-VdX">
                                 <rect key="frame" x="0.0" y="104" width="600" height="496"/>
+                                <connections>
+                                    <outlet property="delegate" destination="h3g-tD-7fk" id="GnP-dq-gLg"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

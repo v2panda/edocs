@@ -13,7 +13,7 @@ class PDTopLabel: UILabel {
     var scale : CGFloat? {
         didSet {
             // 通过scale来改变各种参数
-            // 产生效果
+            // 产生缩放动画效果
             textColor = UIColor.colorWithRGB(231, g: 129, b: 112)
             let minScale : CGFloat = 0.9
             let trueScale : CGFloat = minScale + (1 - minScale) * scale!
@@ -25,6 +25,7 @@ class PDTopLabel: UILabel {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         textAlignment = .Center
