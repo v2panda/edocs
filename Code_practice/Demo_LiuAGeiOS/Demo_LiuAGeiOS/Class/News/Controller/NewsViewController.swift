@@ -25,16 +25,13 @@ class NewsViewController: UIViewController{
     private var selectedArray: [[String : String]]?
     private var optionalArray: [[String : String]]?
     
-
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // initUI
         prepareUI()
 
-        
+        automaticallyAdjustsScrollViewInsets = false;
     }
     
     // initUI
@@ -206,6 +203,7 @@ class NewsViewController: UIViewController{
                     // 给第一个列表控制器的视图添加手势 - 然后在手势代理里面处理手势冲突
                     // tableView自带pan手势，如果不处理，我们添加的手势会覆盖默认手势
                     // TODO::
+                    
                 }
             }
         }
@@ -214,7 +212,7 @@ class NewsViewController: UIViewController{
         
         let lastLabel = topScrollView.subviews.last as! PDTopLabel
         // 设置顶部标签区域滚动范围
-        topScrollView.contentSize = CGSizeMake(leftMargin + lastLabel.frame.width, 0)
+        topScrollView.contentSize = CGSize(width: leftMargin + lastLabel.frame.width, height: 0)
         
         // 视图滚动到第一个位置
         contentScrollView.setContentOffset(CGPoint(x: 0, y: contentScrollView.contentOffset.y), animated: true)
@@ -238,8 +236,7 @@ class NewsViewController: UIViewController{
         
         newVC.view.frame = CGRect(x: CGFloat(index) * SCREEN_WIDTH, y: 0, width: contentScrollView.bounds.width, height: contentScrollView.bounds.height)
         contentScrollView.addSubview(newVC.view)
-        // TODO::
-        
+        newVC.classid = Int(selectedArray![index]["classid"]!)
     }
     
     /**
@@ -260,11 +257,12 @@ extension NewsViewController: UIScrollViewDelegate {
     
     // 滚动结束后触发 
     func scrollViewDidEndScrollingAnimation(scrollView: UIScrollView) {
+        
         let index = Int(scrollView.contentOffset.x / scrollView.frame.size.width)
         
         // 滚动标题栏
         let titleLabel = topScrollView.subviews[index]
-        var offsetX = titleLabel.center.x - topScrollView.frame.size.width
+        var offsetX = titleLabel.center.x - topScrollView.frame.size.width * 0.5
         let offsetMax = topScrollView.contentSize.width - topScrollView.frame.size.width
         
         if offsetX < 0 {
@@ -328,6 +326,7 @@ extension NewsViewController: UIScrollViewDelegate {
     
     // 正在滚动
     func scrollViewDidScroll(scrollView: UIScrollView) {
+        
         let value = (scrollView.contentOffset.x / scrollView.frame.width)
         
         let leftIndex = Int(value)

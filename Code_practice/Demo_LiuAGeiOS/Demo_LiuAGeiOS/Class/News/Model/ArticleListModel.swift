@@ -63,6 +63,45 @@ class ArticleListModel: NSObject {
         NewsDALManager.shareManager.cleanCache(classid)
     }
     
+    /**
+     加载资讯列表数据
+     
+     - parameter classid:   资讯分类id
+     - parameter pageIndex: 加载分页
+     - parameter type:      1为资讯列表 2为资讯幻灯片
+     - parameter cache:     是否需要使用缓存
+     - parameter finished:  数据回调
+     */
+    class func loadNewsList(classid: Int, pageIndex: Int, type: Int, cache: Bool, finished: (articleListModels: [ArticleListModel]?, error: NSError?) -> ()) {
+        
+        // 模型找数据访问层请求数据 - 然后处理数据回调给调用者直接使用
+        NewsDALManager.shareManager.loadNewsList(classid, pageIndex: pageIndex, type: type, cache: cache) { (result, error) in
+            
+            // 请求失败
+            if error != nil || result == nil {
+                finished(articleListModels: nil, error: error)
+                return
+            }
+            
+            // 没有数据了
+            if result?.count == 0 {
+                finished(articleListModels: [ArticleListModel](), error: nil)
+                return
+            }
+            
+            let data = result!.arrayValue
+            var articleListModels = [ArticleListModel]()
+            
+            // 遍历转模型添加数据
+            for article in data {
+                let postModel = ArticleListModel(dict: article.dictionaryObject!)
+                articleListModels.append(postModel)
+            }
+            
+            finished(articleListModels: articleListModels, error: nil)
+        }
+        
+    }
     
     
 }

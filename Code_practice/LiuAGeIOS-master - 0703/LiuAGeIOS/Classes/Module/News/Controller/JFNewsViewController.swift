@@ -401,7 +401,7 @@ extension JFNewsViewController: UIScrollViewDelegate {
             offsetX = offsetMax
         }
         
-        // 滚动顶部标题
+        // 滚动顶部标题                   
         topScrollView.setContentOffset(CGPoint(x: offsetX, y: topScrollView.contentOffset.y), animated: true)
         
         // 恢复其他label缩放
