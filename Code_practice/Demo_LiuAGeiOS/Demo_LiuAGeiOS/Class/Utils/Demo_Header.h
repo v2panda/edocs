@@ -12,5 +12,6 @@
 
 
 #import "WebViewJavascriptBridge.h"
+#import "JFObjcTool.h"
 
 #endif /* Demo_Header_h */

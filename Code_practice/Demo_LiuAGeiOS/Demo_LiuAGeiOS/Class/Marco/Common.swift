@@ -72,7 +72,14 @@ func setupHeaderRefresh(target: AnyObject, action: Selector) -> MJRefreshNormalH
 }
 
 
+/// 保存夜间模式的状态的key
+let NIGHT_KEY = "night"
 
+/// 保存正文字体类型的key
+let CONTENT_FONT_TYPE_KEY = "contentFontType"
+
+/// 保存正文字体大小的key
+let CONTENT_FONT_SIZE_KEY = "contentFontSize"
 
 /// 导航栏背景颜色
 let NAVIGATIONBAR_COLOR = UIColor(red:1,  green:1,  blue:1, alpha:1)

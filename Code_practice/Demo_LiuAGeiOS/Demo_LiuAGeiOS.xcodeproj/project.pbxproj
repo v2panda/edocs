@@ -13,6 +13,8 @@
 		281EFC001D2A391900F78FA6 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281EFBFF1D2A391900F78FA6 /* Api.swift */; };
 		281EFC041D2A3FBA00F78FA6 /* PDTopLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281EFC031D2A3FBA00F78FA6 /* PDTopLabel.swift */; };
 		281EFC081D2A41B700F78FA6 /* UIColor+PDAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281EFC071D2A41B700F78FA6 /* UIColor+PDAdd.swift */; };
+		281F64481D2E35F200C5EA87 /* JFArticleStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F64451D2E35F200C5EA87 /* JFArticleStorage.swift */; };
+		281F64491D2E35F200C5EA87 /* JFObjcTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 281F64471D2E35F200C5EA87 /* JFObjcTool.m */; };
 		2839006A1D2CAC6900C34B02 /* loading in Resources */ = {isa = PBXBuildFile; fileRef = 283900681D2CAC6900C34B02 /* loading */; };
 		2839006B1D2CAC6900C34B02 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 283900691D2CAC6900C34B02 /* www */; };
 		2839006D1D2CD9C500C34B02 /* JFArticleDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2839006C1D2CD9C500C34B02 /* JFArticleDetailModel.swift */; };
@@ -29,6 +31,12 @@
 		2839FF8B1D2CA10000C34B02 /* JFPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2839FF841D2CA10000C34B02 /* JFPlaceholderView.swift */; };
 		2839FF971D2CA9C300C34B02 /* WebViewJavascriptBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 2839FF951D2CA9C300C34B02 /* WebViewJavascriptBridge.js */; };
 		2839FF981D2CA9C300C34B02 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2839FF961D2CA9C300C34B02 /* WebViewJavascriptBridge.m */; };
+		284CE6C81D2DF900000C7589 /* JFDetailOtherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284CE6C61D2DF900000C7589 /* JFDetailOtherCell.swift */; };
+		284CE6C91D2DF900000C7589 /* JFDetailOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 284CE6C71D2DF900000C7589 /* JFDetailOtherCell.xib */; };
+		284CE6CC1D2DF917000C7589 /* JFCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284CE6CA1D2DF917000C7589 /* JFCommentCell.swift */; };
+		284CE6CD1D2DF917000C7589 /* JFCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 284CE6CB1D2DF917000C7589 /* JFCommentCell.xib */; };
+		284CE6D01D2DF92F000C7589 /* JFStarAndShareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284CE6CE1D2DF92F000C7589 /* JFStarAndShareCell.swift */; };
+		284CE6D11D2DF92F000C7589 /* JFStarAndShareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 284CE6CF1D2DF92F000C7589 /* JFStarAndShareCell.xib */; };
 		288B10451D2B4C4600ED80BB /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B10441D2B4C4600ED80BB /* NewsTableViewController.swift */; };
 		288B10471D2B8DEF00ED80BB /* ArticleListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B10461D2B8DEF00ED80BB /* ArticleListModel.swift */; };
 		288B10491D2B8E6400ED80BB /* String+PDAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B10481D2B8E6400ED80BB /* String+PDAdd.swift */; };
@@ -52,6 +60,9 @@
 		281EFBFF1D2A391900F78FA6 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		281EFC031D2A3FBA00F78FA6 /* PDTopLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDTopLabel.swift; sourceTree = "<group>"; };
 		281EFC071D2A41B700F78FA6 /* UIColor+PDAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+PDAdd.swift"; sourceTree = "<group>"; };
+		281F64451D2E35F200C5EA87 /* JFArticleStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFArticleStorage.swift; sourceTree = "<group>"; };
+		281F64461D2E35F200C5EA87 /* JFObjcTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFObjcTool.h; sourceTree = "<group>"; };
+		281F64471D2E35F200C5EA87 /* JFObjcTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFObjcTool.m; sourceTree = "<group>"; };
 		283900681D2CAC6900C34B02 /* loading */ = {isa = PBXFileReference; lastKnownFileType = folder; path = loading; sourceTree = "<group>"; };
 		283900691D2CAC6900C34B02 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		2839006C1D2CD9C500C34B02 /* JFArticleDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFArticleDetailModel.swift; sourceTree = "<group>"; };
@@ -69,6 +80,12 @@
 		2839FF941D2CA9C300C34B02 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = SOURCE_ROOT; };
 		2839FF951D2CA9C300C34B02 /* WebViewJavascriptBridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = WebViewJavascriptBridge.js; sourceTree = SOURCE_ROOT; };
 		2839FF961D2CA9C300C34B02 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = SOURCE_ROOT; };
+		284CE6C61D2DF900000C7589 /* JFDetailOtherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFDetailOtherCell.swift; sourceTree = "<group>"; };
+		284CE6C71D2DF900000C7589 /* JFDetailOtherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFDetailOtherCell.xib; sourceTree = "<group>"; };
+		284CE6CA1D2DF917000C7589 /* JFCommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFCommentCell.swift; sourceTree = "<group>"; };
+		284CE6CB1D2DF917000C7589 /* JFCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFCommentCell.xib; sourceTree = "<group>"; };
+		284CE6CE1D2DF92F000C7589 /* JFStarAndShareCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFStarAndShareCell.swift; sourceTree = "<group>"; };
+		284CE6CF1D2DF92F000C7589 /* JFStarAndShareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFStarAndShareCell.xib; sourceTree = "<group>"; };
 		288B10441D2B4C4600ED80BB /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		288B10461D2B8DEF00ED80BB /* ArticleListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListModel.swift; sourceTree = "<group>"; };
 		288B10481D2B8E6400ED80BB /* String+PDAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+PDAdd.swift"; sourceTree = "<group>"; };
@@ -137,6 +154,12 @@
 		283900761D2CED7100C34B02 /* detail */ = {
 			isa = PBXGroup;
 			children = (
+				284CE6CE1D2DF92F000C7589 /* JFStarAndShareCell.swift */,
+				284CE6CF1D2DF92F000C7589 /* JFStarAndShareCell.xib */,
+				284CE6CA1D2DF917000C7589 /* JFCommentCell.swift */,
+				284CE6CB1D2DF917000C7589 /* JFCommentCell.xib */,
+				284CE6C61D2DF900000C7589 /* JFDetailOtherCell.swift */,
+				284CE6C71D2DF900000C7589 /* JFDetailOtherCell.xib */,
 			);
 			name = detail;
 			sourceTree = "<group>";
@@ -246,6 +269,9 @@
 				288B10501D2BA82C00ED80BB /* NetWorkTool.swift */,
 				288B104C1D2B9C0900ED80BB /* NewsDALManager.swift */,
 				288B104E1D2B9ECB00ED80BB /* SQLiteManager.swift */,
+				281F64451D2E35F200C5EA87 /* JFArticleStorage.swift */,
+				281F64461D2E35F200C5EA87 /* JFObjcTool.h */,
+				281F64471D2E35F200C5EA87 /* JFObjcTool.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -371,6 +397,9 @@
 				281EFBFA1D2A0F6B00F78FA6 /* NewsViewControllerSB.storyboard in Resources */,
 				2839006B1D2CAC6900C34B02 /* www in Resources */,
 				2839FF861D2CA10000C34B02 /* JFNewsNoPicCell.xib in Resources */,
+				284CE6D11D2DF92F000C7589 /* JFStarAndShareCell.xib in Resources */,
+				284CE6C91D2DF900000C7589 /* JFDetailOtherCell.xib in Resources */,
+				284CE6CD1D2DF917000C7589 /* JFCommentCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,15 +466,20 @@
 				288B10471D2B8DEF00ED80BB /* ArticleListModel.swift in Sources */,
 				288B104F1D2B9ECB00ED80BB /* SQLiteManager.swift in Sources */,
 				288B10511D2BA82C00ED80BB /* NetWorkTool.swift in Sources */,
+				281F64481D2E35F200C5EA87 /* JFArticleStorage.swift in Sources */,
 				283900721D2CDC6300C34B02 /* JFNewsBottomBar.swift in Sources */,
 				2839FF891D2CA10000C34B02 /* JFNewsThreePicCell.swift in Sources */,
+				281F64491D2E35F200C5EA87 /* JFObjcTool.m in Sources */,
 				2839FF8B1D2CA10000C34B02 /* JFPlaceholderView.swift in Sources */,
+				284CE6CC1D2DF917000C7589 /* JFCommentCell.swift in Sources */,
 				281EFBFE1D2A390F00F78FA6 /* Common.swift in Sources */,
 				281EFBF71D2A0B0700F78FA6 /* NewsDetailViewController.swift in Sources */,
 				281EFC081D2A41B700F78FA6 /* UIColor+PDAdd.swift in Sources */,
 				288B104B1D2B8F0C00ED80BB /* NSDate+PDAdd.swift in Sources */,
+				284CE6C81D2DF900000C7589 /* JFDetailOtherCell.swift in Sources */,
 				288B10451D2B4C4600ED80BB /* NewsTableViewController.swift in Sources */,
 				288B10491D2B8E6400ED80BB /* String+PDAdd.swift in Sources */,
+				284CE6D01D2DF92F000C7589 /* JFStarAndShareCell.swift in Sources */,
 				28E6FB851D28C3E0001B4AD5 /* AppDelegate.swift in Sources */,
 				2839FF871D2CA10000C34B02 /* JFNewsOnePicCell.swift in Sources */,
 				281EFC001D2A391900F78FA6 /* Api.swift in Sources */,

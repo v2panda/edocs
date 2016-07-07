@@ -192,6 +192,7 @@ class JFNewsDetailViewController: UIViewController {
         let webView = UIWebView(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT))
         webView.dataDetectorTypes = .None
         webView.delegate = self
+        // 关掉webView的上下滑动  计算出webview高度  使之依赖tableView滑动
         webView.scrollView.scrollEnabled = false
         return webView
     }()
@@ -675,6 +676,7 @@ extension JFNewsDetailViewController: UIWebViewDelegate {
      */
     func webViewDidFinishLoad(webView: UIWebView) {
         
+        // 计算webView的高度
         autolayoutWebView()
     }
     
