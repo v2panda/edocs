@@ -1,5 +1,5 @@
-var React = require('react-native')
-var Dimensions = require('react-native')
+var React = require('react-native');
+var Dimensions = require('Dimensions');
 
 var {
 	PixelRatio
@@ -10,13 +10,13 @@ var Util = {
 	// 单位像素
 	pixel:1 / PixelRatio.get(),
 	// 屏幕尺寸
-	size {
+	size: {
 		width: Dimensions.get('window').width,
 		height: Dimensions.get('window').height
-	}
+	},
 
 	// post请求
-	post: function (url,data,callback) {
+	post: function (url, data, callback) {
 		var fetchOptions = {
 			method: 'POST',
 			headers: {

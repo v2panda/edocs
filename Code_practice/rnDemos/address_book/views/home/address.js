@@ -21,6 +21,7 @@ var Address = React.createClass({
   render: function(){
     var view = [];
     var items = this.props.data.status? this.props.data.data: [];
+    console.log(this.props.data);
     var colors = ['#E20079', '#FFD602', '#25BFFE', '#F90000', '#04E246', '#04E246', '#00AFC9'];
     var color = {
       backgroundColor: colors[parseInt(Math.random()*7)]
