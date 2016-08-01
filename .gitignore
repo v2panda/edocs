@@ -15,4 +15,5 @@ xcuserdata
 .DS_Store
 profile
 
+node_modules/*
 StudyDemo/.DS_Store
